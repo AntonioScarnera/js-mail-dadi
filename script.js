@@ -35,8 +35,8 @@ let result = document.getElementById('result')
 
 
 play.addEventListener('click', function(){
-    let computer = Math.floor(Math.random() * 6);
-    let player = Math.floor(Math.random() * 6);
+    let computer = Math.floor(Math.random() * 6 + 1);
+    let player = Math.floor(Math.random() * 6 + 1);
     console.log(computer,player)
     if(computer>player)
     {
